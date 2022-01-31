@@ -1,0 +1,73 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Gochi+Hand&family=Roboto:wght@300&display=swap');
+
+/*
+font-family: 'Cabin', sans-serif;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1, h2, h3, h4 {
+	font-family: 'Gochi Hand', cursive;
+}
+
+p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+}
+
+a.p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+}
+
+a:link { 
+	font-family: 'Gochi Hand', cursive;
+    text-decoration: none;
+    color: black;
+	font-size: 25px;
+}
+
+
+a:visited {
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+a:active { 
+    text-decoration: none; 
+    color: black;
+}
+
+input {
+    width: 100%;
+    border-color: black;
+    padding: 12px 0 12px 5px;
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+}
+textarea {
+    width: 100%;
+    border-radius: 0;
+    padding: 12px 0 12px 5px;
+    margin: 10px 0 10px 0;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 18px;
+    padding: 12px 12px;
+    border: 2px solid #ffffff;
+}
