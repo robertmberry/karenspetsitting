@@ -18,6 +18,7 @@ h1, h2, h3, h4 {
 p {
 	font-family: 'Cabin', sans-serif;
 	font-size: 17px;
+    text-align: justify;
 }
 
 a.p {
@@ -31,8 +32,6 @@ a:link {
     color: black;
 	font-size: 25px;
 }
-
-
 a:visited {
     text-decoration: none; 
     color: black;

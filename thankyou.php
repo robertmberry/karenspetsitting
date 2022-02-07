@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -33,9 +35,13 @@
 			justify-content: center;
 			align-items: center;
 		}
-		.footer {
-			font-size: 50px;
+		footer {
+			font-size: 25px;
 			text-decoration: none;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			padding-top: 10px;
 		}
 	</style>
 
@@ -78,7 +84,7 @@
 				<div class="col-md-12" style="background-color: rgba(255,255,255,0.8); padding: 20px; text-align: center;">
 					<a name="about"></a>
 					<br>
-					<h1>Thank you for your inquiry $_POST['name'];)</h1>
+					<h1>Thank you for your inquiry $_SESSION['firstname']);</h1>
 					<br>
 					<p>Karen will be in touch soon!</p>
 				</div>
