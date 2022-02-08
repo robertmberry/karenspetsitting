@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Karen's Pet Sitting</title>
-<meta name="Description" content="karen berry"/>
-<meta name="Keywords" content="karen berry, karen berry petsitting, petsitter, suffolk county"/>
+<meta name="Description" content="Karen Berry's Pet Sitting offers high quality animal care in Suffolk County, Long Island, New York."/>
+<meta name="Keywords" content="karen berry, karen berry pet sitting, petsitter, suffolk county, animal care, dog walking, cat watcher, pet vacation"/>
 <meta name="author" content="karen berry"/>
 <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
@@ -112,7 +112,7 @@
 			<div class="row">
 				<div class="col-md-12" style="background-color: rgba(255,255,255,0.8); padding: 20px;">
 					<a name="about"></a>
-					<p>At Karen's Pet Sitting, our care-giving goes well beyond just the physical needs of your animal. We believe that there is a mind-body connection in animals. As such, the emotional state of your pet is just as important as their physical well-being. We aim to reduce occurrences of stress, frustration, loneliness - and yes, even boredom - in the life of your beloved family members.
+					<p>At Karen's Pet Sitting, care-giving goes well beyond just the physical needs of your animal. Karen believes that there is a mind-body connection in animals. As such, the emotional state of your pet is just as important as their physical well-being. She aims to reduce occurrences of stress, frustration, loneliness - and yes, even boredom - in the life of your beloved family members.
 					<p><a href="#contact"><button type="button" class="button">Request a free consultation today!</button></a></p>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 		<div class="container p-5">
 			<div class="row">
 				<div class="col-md-12" style="padding: 20px;">
-					<h1>About Karen</h1>
+					<h1>Karen's Pet Sitting</h1>
 					<p>Karen has owned cats, dogs, birds, small animals, and fish for her entire life. With over 15 years working at a family-owned pet shop with responsibilities including taking care of the bird and small animal departments, and helping customers with all their pet care needs. Wether they were getting a new friend to add to the family or had questions about existing pets, Karen always knows how to educate and guide them.</p>
 					<p>She began pet sitting for friends and neighbors as a teenager, and has been taking care of people's animals for 25 years and counting. Cats, dogs, small animals, birds, farm animals, fish in tanks and ponds, and you name it, Karen has provided loving care for it! Wether they need a visit for a quick bathroom break, an afternoon feeding, a long walk at the dog park, or if you are going away on your dream vacation, Karen will be there to care for them as if they are her own. She aims to always to make them as happy and comfortable as possible during your absence in their own home.</p>
 					<p> Karen's Pet Sitting serves Western and Central Suffolk County in Long Island, New York, but is also avaialable in Nassau Country for a nominal surcharge</p>
@@ -140,51 +140,51 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 pt-5">
-					<h1>Services</h1>
+					<h2>Services</h2>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-paw"></i>
-					<h2 class="pt-4">Pet Sitting</h2>
+					<h3 class="pt-4">Pet Sitting</h3>
 					<p>Whether you have a dog, cat, bird, fish, gerbil, or any other type of pet, you can trust Karen to look after them while you're away. She take care of food, water, waste, exercise, unexpected messes, and of course, give your pet all the love and attention they deserve.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-dog"></i>
-					<h2 class="pt-3">Dog Walking</h2>
+					<h3 class="pt-3">Dog Walking</h3>
 					<p>From quick relief outings to longer afternoon strolls, Karen is pleased to walk your pup when your busy life takes you away from home. Karen can help you give them their daily dose of fun-filled exercise with a 30-minute walk that includes feeding, watering, and potty breaks</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-bone"></i>
-					<h2 class="pt-3">Puppy Sitting</h2>
+					<h3 class="pt-3">Puppy Sitting</h3>
 					<p>You love your new puppy with all your heart, but you're less fond of stained carpets, chewed up shoes, and slobbery clothing. Karen can help you customize the perfect feeding, exercise, and potty schedule for your pup while helping them learn the proper way to behave in your home.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-crow"></i>
-					<h2 class="pt-3">Birds</h2>
+					<h3 class="pt-3">Birds</h3>
 					<p>Birds aren't like dogs or cats. They're unique and require special care and attention when you're away. When you're on the search for a bird sitter, Karen is here. She has owned, raised, and cared for parrots, parakeets, canaries, finches, etc. and will make fast friends with your feathered family member.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-notes-medical"></i>
-					<h2 class="pt-3">Medical Administration</h2>
-					<p>If your pet has a strict schedule for taking prescribed medication, enlisting a little help is never a bad idea. Karen is experienced with pills, shots, injections, and fluids, and can ensure that your pet is getting the right medication at the right time.</p>
+					<h3 class="pt-3">Medical Administration</h3>
+					<p>If your pet has a strict schedule for taking prescribed medication, enlisting a little help is never a bad idea. Karen is experienced administering pills, oral liquid medication, eye and ear medications, and topical ointments, and can ensure that your pet is getting the right medication at the right time.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-home"></i>
-					<h2 class="pt-3">Home Services</h2>
+					<h3 class="pt-3">Home Services</h3>
 					<p>No home need is too great or two small. Karen can bringing in your mail, newspapers, and deliveries, take trash to the curb, water your indoor plants, handle simple pool and pond care, basic security checks, inclement weather home inspections, and any other household tasks.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-cat"></i>
-					<h2 class="pt-3">Cat visits</h2>
+					<h3 class="pt-3">Cat visits</h3>
 					<p>Are you planning to get out of town but your kitty is a bit of a couch potato? Karen is glad to pay daily visits and make sure your cat is having a great time, all the while being carefully looked after and properly fed. Feeding your kitty wet and dry food, cleaning and replacing litter, vacuuming the litter areas, changing drinking water, playing, brushing, and everything else you can think of.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-cut"></i>
-					<h2 class="pt-3">Nail and Wing Clipping</h2>
+					<h3 class="pt-3">Nail and Wing Clipping</h3>
 					<p>Your pet needs some grooming from their pet parents to keep them at their healthiest. If you do not know how to trim your pet's nails or clip your bird's wings, it is best to go to a pet expert as they will have all the tools they need to keep your pet their best. Karen can also show you how to desensitize your pet to proper grooming.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-fish"></i>
-					<h2 class="pt-3">Fish and Small Animals</h2>
+					<h3 class="pt-3">Fish and Small Animals</h3>
 					<p>Whether you have a guinea pig, a turtle, or exotic fish, Karen will make sure your tiny companions stay healthy and safe. Fish and small animals need special care. When you head out to work or on vacation, Karen can change out your hampster's bedding, feed and change goldfish water, and administer any medication your mouse might need.</p>
 				</div>
 			</div>
@@ -198,7 +198,7 @@
 		<div class="container p-5">
 			<div class="row">
 				<div class="col-md-12" style="background-color: rgba(255,255,255,0.8); padding: 20px; margin-top: 20px">
-					<h1>Testimonials</h1>
+					<h2>Testimonials</h2>
 					<p>I can highly recommend Karen's ability to care for pets of every description. I have owned birds, dogs, sheep, goats, pigs, chickens, ducks, koi, cats, and more. Karen has expertly cared for all of them for over 20 years. Never a problem or a worry with this reliable and caring pet sitter.</p>
 					<p><b>- Donna</b></p>
 					<br>
@@ -221,7 +221,7 @@
 			<div class="row col-lg-12">
 				<div style="background-color: rgba(255,255,255,0.8); padding: 20px;">
 					<a name="contact"></a>
-					<h1>Request a free consulation today</h1>
+					<h2>Request a free consulation today</h2>
 					<form action="process.php" method="post">
 						<label class="input-group">
 							Your Name<br>
@@ -309,8 +309,6 @@
 
 			if ( startdate > enddate ){
 				alert("the first date is later");
-			} else if ( startdate == enddate ){
-				alert("the dates are the same");
 			} else {	
 				alert("the second date is later");
 			}
