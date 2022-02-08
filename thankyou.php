@@ -89,6 +89,16 @@
 					<p>Karen will be in touch soon!</p>
 				</div>
 			</div>
+			<div class="row funfacts">
+				<div class="col-md-12" style="background-color: rgba(255,255,255,0.8); padding: 20px; text-align: center;">
+					<a name="about"></a>
+					<br>
+					<h1>Fun facts</h1>
+					<br>
+					<p>A dog's nose print is unique, much like a person's fingerprint.</p>
+				</div>
+			</div>
+
 		</div>
 	</section>
 

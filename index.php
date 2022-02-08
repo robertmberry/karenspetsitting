@@ -135,7 +135,7 @@
 	</section>
 
 	<!-- Services -->
-		<a name="services">
+	<a name="services">
 	<section>
 		<div class="container">
 			<div class="row">
@@ -252,6 +252,21 @@
 							Message<br>
 							<textarea name="message" placeholder="I am interested in your pet sitting service." required></textarea>
 						</label>
+						<br><br>
+						<p>Type of pets:</p>
+						<div>
+						<input type="radio" id="cats" name="type" value="cats"
+								checked>
+						<label for="cats">Cats</label>
+						</div>
+						<div>
+						<input type="radio" id="dogs" name="type" value="dogs">
+						<label for="dogs">Dogs</label>
+						</div>
+						<div>
+						<input type="radio" id="birds" name="type" value="birds">
+						<label for="birds">Birds</label>
+						</div>
 						<br><br>
 						<input type="submit" class="btn btn-dark" value="Submit">
 					</form> 
