@@ -43,6 +43,9 @@
 			justify-content: center;
 			padding-top: 10px;
 		}
+		.facts {
+			display: none;
+		}
 	</style>
 
 <body>
@@ -84,7 +87,7 @@
 				<div class="col-md-12" style="background-color: rgba(255,255,255,0.8); padding: 20px; text-align: center;">
 					<a name="about"></a>
 					<br>
-					<h1>Thank you for your inquiry $_SESSION['firstname']);</h1>
+					<h1>Thank you for your inquiry <?php echo $_SESSION['name'];?></h1>
 					<br>
 					<p>Karen will be in touch soon!</p>
 				</div>
@@ -95,7 +98,20 @@
 					<br>
 					<h1>Fun facts</h1>
 					<br>
-					<p>A dog's nose print is unique, much like a person's fingerprint.</p>
+
+					<?php 
+						if ($_SESSION['type'] == 'cats'){
+							echo '<p>A cats nose print is unique, much like a persons fingerprint.</p>';							
+						} else if ($_SESSION['type'] == 'dogs'){
+							echo '<p>A dogs nose print is unique, much like a persons fingerprint.</p>';						
+						} else if ($_SESSION['type'] == 'birds'){
+							echo '<p>A birds nose print is unique, much like a persons fingerprint.</p>';							
+						}
+					?>
+
+					<!-- <p>A dog's nose print is unique, much like a person's fingerprint.</p>
+					
+					<p>A first's nose print is unique, much like a person's fingerprint.</p> -->
 				</div>
 			</div>
 

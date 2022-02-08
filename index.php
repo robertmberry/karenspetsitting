@@ -216,13 +216,13 @@
 
 	<!-- Request Consultation -->
 
-	<section id="form" class="text-dark">
+	<section class="text-dark">
 		<div class="container p-5">
 			<div class="row col-lg-12">
 				<div style="background-color: rgba(255,255,255,0.8); padding: 20px;">
 					<a name="contact"></a>
 					<h2>Request a free consulation today</h2>
-					<form action="process.php" method="post">
+					<form action="process.php" method="post" id="userform">
 						<label class="input-group">
 							Your Name<br>
 							<input type="text" name="name" placeholder="Name" required>
@@ -255,8 +255,7 @@
 						<br><br>
 						<p>Type of pets:</p>
 						<div>
-						<input type="radio" id="cats" name="type" value="cats"
-								checked>
+						<input type="radio" id="cats" name="type" value="cats">
 						<label for="cats">Cats</label>
 						</div>
 						<div>
@@ -309,7 +308,7 @@
 	<script>
 
 	//bypass the form
-		document.getElementById('form').onsubmit = function(e){
+		document.getElementById('userform').onsubmit = function(e){
 			
 			let startdate = document.getElementById('startdate').value;
 			let enddate = document.getElementById('enddate').value;

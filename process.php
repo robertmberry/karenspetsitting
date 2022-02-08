@@ -2,8 +2,10 @@
 
 session_start();
 
-$_SESSION['yn'] = $_POST['yn'];
-$name = $_POST['name'];
+$_SESSION['name'] = $_POST['name'];
+$_SESSION['type'] = $_POST['type'];
+
+// $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
 $startdate = $_POST['startdate'];
