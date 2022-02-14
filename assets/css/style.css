@@ -70,3 +70,6 @@ button {
     padding: 12px 12px;
     border: 2px solid #ffffff;
 }
+.center {
+	text-align: center;
+}

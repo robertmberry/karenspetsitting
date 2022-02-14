@@ -63,16 +63,16 @@
 			<div class="collapse navbar-collapse justify-content-end" style="padding-right: 55px;" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-				<a class="nav-link text-dark" style="font-size: 35px" href="index.php/#top">About</a>
+				<a class="nav-link text-dark" style="font-size: 35px" href="./#top">About</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link text-dark" style="font-size: 35px" href="index.php/#services">Services</a>
+				<a class="nav-link text-dark" style="font-size: 35px" href="./#services">Services</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link text-dark" style="font-size: 35px" href="index.php/#testimonials">Testimonials</a>
+				<a class="nav-link text-dark" style="font-size: 35px" href="./#testimonials">Testimonials</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link text-dark" style="font-size: 35px" href="index.php/#contact">Contact</a>
+				<a class="nav-link text-dark" style="font-size: 35px" href="./#contact">Contact</a>
 				</li>
 			</ul>
 			</div>
@@ -89,7 +89,7 @@
 					<br>
 					<h1>Thank you for your inquiry <?php echo $_SESSION['name'];?></h1>
 					<br>
-					<p>Karen will be in touch soon!</p>
+					<h4>Karen will be in touch soon!</h4>
 				</div>
 			</div>
 			<div class="row funfacts">
@@ -98,20 +98,33 @@
 					<br>
 					<h1>Fun facts</h1>
 					<br>
-
 					<?php 
 						if ($_SESSION['type'] == 'cats'){
-							echo '<p>A cats nose print is unique, much like a persons fingerprint.</p>';							
+							$cats = array("<h4>House cats share 95.6% of their genetic makeup with tigers</h4>", "<h4>Cats are believed to be the only mammals who do not taste sweetness.</h4>", "<h4>Cats have 230 bones, while humans only have 206.</h4>");
+							$random = rand(0, 2);
+							echo $cats[$random];
+
 						} else if ($_SESSION['type'] == 'dogs'){
-							echo '<p>A dogs nose print is unique, much like a persons fingerprint.</p>';						
+							$dogs = array("<h4>A dog's nose print is unique, much like a persons fingerprint.</h4>", "<h4>Seventy percent of people sign their dogs name on their holiday cards.</h4>", "<h4>Human blood pressure goes down when petting a dog. And so does the dog's.</h4>");
+							$random = rand(0, 2);
+							echo $dogs[$random];
+
 						} else if ($_SESSION['type'] == 'birds'){
-							echo '<p>A birds nose print is unique, much like a persons fingerprint.</p>';							
+							$birds = array("<h4>Not only are they capable of mimicking human speech but parrots can also add, subtract, and understand the meaning of zero.</h4>", "<h4> A group of parrots is called a pandemonium.</h4>", "<h4>The novel <i>Treasure Island</i> is the reason parrots are associated with pirates.</h4>");
+							$random = rand(0, 2);
+							echo $birds[$random];
+
+						} else if ($_SESSION['type'] == 'fish'){
+							$fish = array("<h4>Goldfish are actually quite vocal. They communicate their contentment and other emotions through subtle grunts, purrs, snorts, hoots, and hums.</h4>", "<h4>Goldfish have teeth in their throat, near the bases of their gills, called pharyngeal teeth, which help them crush their food.</h4>", "<h4>Goldfish do not have eyelids, so their eyes are always open, even when they sleep.</h4>");
+							$random = rand(0, 2);
+							echo $fish[$random];
+
+						} else if ($_SESSION['type'] == 'animals'){
+							$animals = array("<h4>Gerbils do not just use their hearing to communicate, they also have a highly tuned sense of smell.</h4>", "<h4>Hamsters are fast runners, able to clock in over 5 miles of running in a single night.</h4>", "<h4>European hamsters can exceed 12 inches when full grown.</h4>");
+							$random = rand(0, 2);
+							echo $animals[$random];
 						}
 					?>
-
-					<!-- <p>A dog's nose print is unique, much like a person's fingerprint.</p>
-					
-					<p>A first's nose print is unique, much like a person's fingerprint.</p> -->
 				</div>
 			</div>
 
@@ -126,7 +139,7 @@
 
 	<!-- jQuery Scipt -->
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
 	<!-- Bootstrap Scipt -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -7,6 +7,7 @@ $_SESSION['type'] = $_POST['type'];
 
 // $name = $_POST['name'];
 $email = $_POST['email'];
+$phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $startdate = $_POST['startdate'];
 $enddate = $_POST['enddate'];
@@ -17,6 +18,8 @@ $message = $_POST['message'];
 // echo $_POST['name'];
 // echo '<br><br>';
 // echo $_POST['email'];
+// echo '<br><br>';
+// echo $_POST['phone'];
 // echo '<br><br>';
 // echo $_POST['subject'];
 // echo '<br><br>';
@@ -51,21 +54,37 @@ file_put_contents('data.json', $jsondata);
 
 //send to email
 
-// $to = 'karenberrypetsitting@gmail.com';
-// $subject = 'Pet Sitting Inquiry';
-// $message = 'Someone is interested in your pet sitting service.';
-// $headers = 'From: karenberrypetsitting@gmail.com' . "\r\n" .
-//     'Reply-To: karenberrypetsitting@gmail.com' . "\r\n" .
-//     'X-Mailer: PHP/' . phpversion();
+$to = 'karenberrypetsitting@gmail.com';
+$subject = 'Pet Sitting Inquiry';
+$headers = 'From: info@karenspetsitting.com' . "\r\n" .
+    'Reply-To: karenberrypetsitting@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+$message = 'Name: '.$_POST['name'].'
+Type: '.$_POST['type'].'
+Email: '.$_POST['email'].'
+Phone: '.$_POST['phone'].'
+Subject: '.$_POST['subject'].'
+Start Date: '.$_POST['startdate'].'
+End Date: '.$_POST['enddate'].'
+Message: '.$_POST['message'];
 
-// mail ($to, $subject, $message, $headers);
+mail ($to, $subject, $message, $headers);
+
+//send to user email
+
+$to = $_POST['email'];
+$subject = 'Karen\'s Pet Sitting';
+$headers = 'From: info@karenspetsitting.com' . "\r\n" .
+    'Reply-To: karenberrypetsitting@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+$message = 'Thank you for your email; Karen will be in touch soon!';
+
+mail ($to, $subject, $message, $headers);
 
 //redirect to index.php
 //go to a thank you page, then have a 10 second wait, then javascript back to main site
 //add google analytics to the "Thank You" page
 
-
 header('location:thankyou.php');
-
 
 ?>

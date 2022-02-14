@@ -78,7 +78,6 @@
 
 	<!-- Header -->
 
-	<a name="about">
 	<nav class="navbar navbar-expand-lg navbar-light bg-white">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.php"><img src="assets/img/logo.gif" width="35%"></a>
@@ -89,7 +88,7 @@
 			<div class="collapse navbar-collapse justify-content-end" style="padding-right: 55px;" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-				<a class="nav-link text-dark" style="font-size: 35px" href="#top">About</a>
+				<a class="nav-link text-dark" style="font-size: 35px" href="#about">About</a>
 				</li>
 				<li class="nav-item">
 				<a class="nav-link text-dark" style="font-size: 35px" href="#services">Services</a>
@@ -121,20 +120,23 @@
 
 	<!-- About -->
 
+
 	<section class="bg-warning text-dark">
 		<div class="container p-5">
 			<div class="row">
 				<div class="col-md-12" style="padding: 20px;">
+					<a name="about">
 					<h1>Karen's Pet Sitting</h1>
 					<p>Karen has owned cats, dogs, birds, small animals, and fish for her entire life. With over 15 years working at a family-owned pet shop with responsibilities including taking care of the bird and small animal departments, and helping customers with all their pet care needs. Wether they were getting a new friend to add to the family or had questions about existing pets, Karen always knows how to educate and guide them.</p>
 					<p>She began pet sitting for friends and neighbors as a teenager, and has been taking care of people's animals for 25 years and counting. Cats, dogs, small animals, birds, farm animals, fish in tanks and ponds, and you name it, Karen has provided loving care for it! Wether they need a visit for a quick bathroom break, an afternoon feeding, a long walk at the dog park, or if you are going away on your dream vacation, Karen will be there to care for them as if they are her own. She aims to always to make them as happy and comfortable as possible during your absence in their own home.</p>
-					<p> Karen's Pet Sitting serves Western and Central Suffolk County in Long Island, New York, but is also avaialable in Nassau Country for a nominal surcharge</p>
+					<p>Karen's Pet Sitting serves Western and Central Suffolk County in Long Island, New York, but is also avaialable in Nassau Country for a nominal surcharge.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Services -->
+	
 	<a name="services">
 	<section>
 		<div class="container">
@@ -170,7 +172,7 @@
 				<div class="col-md-4">
 					<i class="icons fas fa-home"></i>
 					<h3 class="pt-3">Home Services</h3>
-					<p>No home need is too great or two small. Karen can bringing in your mail, newspapers, and deliveries, take trash to the curb, water your indoor plants, handle simple pool and pond care, basic security checks, inclement weather home inspections, and any other household tasks.</p>
+					<p>No home need is too great or two small. Karen can bring in your mail, newspapers, and deliveries, take trash to the curb, water your indoor plants, handle simple pool and pond care, basic security checks, inclement weather home inspections, and any other household tasks.</p>
 				</div>
 				<div class="col-md-4">
 					<i class="icons fas fa-cat"></i>
@@ -234,6 +236,11 @@
 						</label>
 						<br><br>
 						<label class="input-group">
+							Phone<br>
+							<input type="phone" name="phone" placeholder="631-123-4567" required>
+						</label>
+						<br><br>
+						<label class="input-group">
 							Subject<br>
 							<textarea name="subject" placeholder="Pet sitting inquiry" required></textarea>
 						</label>
@@ -241,12 +248,12 @@
 						<label for="startdate">Start date:</label>
 						<input type="date" id="startdate" name="startdate"
 							value=""
-							min="2022-01-01" max="2099-12-31">
+							min="2022-01-01" max="2099-12-31" required>
 						<br><br><br>
 						<label for="enddate">End date:</label>
 						<input type="date" id="enddate" name="enddate"
 							value=""
-							min="2022-01-01" max="2099-12-31">
+							min="2022-01-01" max="2099-12-31" required>
 						<br><br><br>
 						<label class="input-group">
 							Message<br>
@@ -255,16 +262,28 @@
 						<br><br>
 						<p>Type of pets:</p>
 						<div>
-						<input type="radio" id="cats" name="type" value="cats">
+						<input type="radio" id="cats" name="type" value="cats" required>
 						<label for="cats">Cats</label>
 						</div>
+						<br>
 						<div>
 						<input type="radio" id="dogs" name="type" value="dogs">
 						<label for="dogs">Dogs</label>
 						</div>
+						<br>
 						<div>
 						<input type="radio" id="birds" name="type" value="birds">
 						<label for="birds">Birds</label>
+						</div>
+						<br>
+						<div>
+						<input type="radio" id="fish" name="type" value="fish">
+						<label for="fish">Fish</label>
+						</div>
+						<br>
+						<div>
+						<input type="radio" id="animals" name="type" value="animals">
+						<label for="animals">Small Animals</label>
 						</div>
 						<br><br>
 						<input type="submit" class="btn btn-dark" value="Submit">
@@ -295,9 +314,9 @@
 		<p>&copy 2022 Karen's Pet Sitting</p>
 	</footer>
 
-	<!-- jQuery Scipt -->
+	<!-- jQuery Scipt
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
 	<!-- Bootstrap Scipt -->
 	
@@ -322,11 +341,10 @@
 			enddate = Date.parse(enddate)
 
 			if ( startdate > enddate ){
-				alert("the first date is later");
+				alert("The start date is later than then end date; please review!");
 			} else {	
-				alert("the second date is later");
+				document.getElementById("userform").submit();
 			}
-			};
 
 	//now send the form with AJAX once it passes
 
