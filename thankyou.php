@@ -134,7 +134,7 @@
 	<!-- Footer -->
 
 	<footer style="text-align: center;">
-		<br><p>&copy 2022 Karen's Pet Sitting</p>
+		<br><p>&copy; <?php echo date("Y"); ?> Karen's Pet Sitting</p>
 	</footer>
 
 	<!-- jQuery Scipt -->

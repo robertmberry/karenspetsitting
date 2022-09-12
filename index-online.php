@@ -8,16 +8,6 @@
 <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-<!-- Google ReCAPTCHA -->
-
-<script src="https://www.google.com/recaptcha/api.js"></script>
-
-<script>
-   function onSubmit(token) {
-     document.getElementById("userform").submit();
-   }
- </script>
  
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C47YHTXB0X"></script>
@@ -79,7 +69,7 @@
 			font-family: 'Cabin', sans-serif;
 			font-size: 17px;
 			text-decoration: none;
-		}Q
+		}
 		.icons {
 			font-size: 100px;
 		}
@@ -92,9 +82,6 @@
 			padding-top: 10px;
 		}
 	</style>
-
-	<!-- Captcha v2 -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 	</head>
 
@@ -309,7 +296,7 @@
 						<label for="animals">Small Animals</label>
 						</div>
 						<br><br>
-						<input type="submit" class="btn btn-dark g-recaptcha" data-sitekey="6LflGvMhAAAAAJ4lbwoZwgm9oRjfPvnQqIKJ2MNH" data-callback='onSubmit' value="Submit">
+						<input type="submit" class="btn btn-dark" value="Submit">
 					</form> 
 				</div>
 			</div>
